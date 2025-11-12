@@ -15,7 +15,7 @@ import { Button } from "@/components/ui/button";
 import { motion, AnimatePresence } from "framer-motion";
 
 const navigationItems = [
-  { name: "Dashboard", path: "/", icon: Home },
+  { name: "Dashboard", path: "/dashboard", icon: Home },
   { name: "Tracker", path: "/tracker", icon: Activity },
   { name: "Rewards", path: "/rewards", icon: Award },
   { name: "AI Insights", path: "/insights", icon: Lightbulb },
